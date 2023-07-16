@@ -172,7 +172,7 @@ main{
     }
 
     .team-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
     .team-sec-img{
@@ -182,5 +182,8 @@ main{
     .team-sec-details{
         margin-top: 20px;
         padding: 0px 0px;
+    }
+    #team-btn{
+        margin-bottom: 20px;
     }
 }
