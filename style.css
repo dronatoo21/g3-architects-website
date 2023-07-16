@@ -137,17 +137,21 @@ main{
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .feture-title{
     font-size: 2.8rem;
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .feture-content{
     margin-top: 40px;
+}
+
+.feture-des{
+    margin-bottom: 30px;
 }
 
 .feture-img{
