@@ -132,7 +132,7 @@ main{
 /*Facts styles*/
 
 .facts-section{
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .facts-title{
@@ -140,7 +140,7 @@ main{
 }
 
 .cards-container{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
@@ -152,6 +152,36 @@ main{
     padding: 30px;
     width: 200px;
     height: 100px;
+}
+
+/*--sponspors styles*/
+
+.sponspors-section{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.sponspors-title{
+    margin-bottom: 20px;
+}
+
+.sponspors-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Footer styles*/
+
+footer{
+    width: 80%;
+    height: 100px;
+    margin: 120px auto 50px auto;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*reponsive for phone*/
@@ -188,6 +218,28 @@ main{
     #team-btn{
         margin-bottom: 20px;
     }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .facts-section{
+        text-align: center;
+    }
+
+    .sponspors-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .sponspors-container img{
+        width: 50%;
+        margin: auto;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
@@ -211,4 +263,16 @@ main{
     #team-btn{
         margin-bottom: 20px;
     }
+
+    .sponspors-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .sponspors-container img{
+        width: 50%;
+        margin: auto;
+    }
+
 }
